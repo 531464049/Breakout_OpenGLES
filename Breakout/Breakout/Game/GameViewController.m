@@ -7,10 +7,12 @@
 
 #import "GameViewController.h"
 #import "GameTopBar.h"
+#import "MHGameView.h"
 
 @interface GameViewController ()<GameTopBarDelegate>
 
 @property(nonatomic,strong)GameTopBar * topBar;
+@property(nonatomic,strong)MHGameView * gameView;
 
 @end
 
@@ -18,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+    self.view.backgroundColor = RGBA(0.0, 0.0, 0.0, 255);
     [self setupUI];
 }
 -(void)setupUI
@@ -26,9 +28,14 @@
     self.topBar = [[GameTopBar alloc] initWithFrame:CGRectMake(0, STATUSBAR_H, SCREEN_W, NAVIBAR_H - STATUSBAR_H)];
     self.topBar.delegate = self;
     [self.view addSubview:self.topBar];
+    
+    self.gameView = [[MHGameView alloc] initWithFrame:CGRectMake(0, CGRectGetMaxY(self.topBar.frame), self.view.frame.size.width, self.view.frame.size.height - CGRectGetMaxY(self.topBar.frame) - 50 - k_bottom_margin)];
+    [self.view addSubview:self.gameView];
 }
 -(void)topBar_back:(GameTopBar *)bar
 {
+    [self.gameView clearGame];
+    
     CATransition * transition = [CATransition animation];
     transition.type = kCATransitionFade;
     transition.duration = .3;

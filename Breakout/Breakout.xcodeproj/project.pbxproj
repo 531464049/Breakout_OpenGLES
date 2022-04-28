@@ -19,6 +19,10 @@
 		991DF5C52818ED0800FA4A08 /* UIView+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DF5B42818ED0800FA4A08 /* UIView+MH.m */; };
 		992E92782818F51C0043BC68 /* GameTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E92772818F51C0043BC68 /* GameTopBar.m */; };
 		992E927C2818F7850043BC68 /* icon-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 992E927B2818F7850043BC68 /* icon-arrow-left.png */; };
+		992E928028191E7B0043BC68 /* MHShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E927F28191E7B0043BC68 /* MHShader.m */; };
+		992E92832819289A0043BC68 /* MHTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E92822819289A0043BC68 /* MHTexture2D.m */; };
+		992E928628192BB90043BC68 /* MHResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E928528192BB90043BC68 /* MHResourceManager.m */; };
+		992E928928193ED60043BC68 /* MHGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E928828193ED60043BC68 /* MHGameView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,14 @@
 		992E92762818F51C0043BC68 /* GameTopBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameTopBar.h; sourceTree = "<group>"; };
 		992E92772818F51C0043BC68 /* GameTopBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTopBar.m; sourceTree = "<group>"; };
 		992E927B2818F7850043BC68 /* icon-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-arrow-left.png"; sourceTree = "<group>"; };
+		992E927E28191E7B0043BC68 /* MHShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHShader.h; sourceTree = "<group>"; };
+		992E927F28191E7B0043BC68 /* MHShader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHShader.m; sourceTree = "<group>"; };
+		992E92812819289A0043BC68 /* MHTexture2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTexture2D.h; sourceTree = "<group>"; };
+		992E92822819289A0043BC68 /* MHTexture2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTexture2D.m; sourceTree = "<group>"; };
+		992E928428192BB90043BC68 /* MHResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHResourceManager.h; sourceTree = "<group>"; };
+		992E928528192BB90043BC68 /* MHResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHResourceManager.m; sourceTree = "<group>"; };
+		992E928728193ED60043BC68 /* MHGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHGameView.h; sourceTree = "<group>"; };
+		992E928828193ED60043BC68 /* MHGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHGameView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +118,10 @@
 		991DF5902818EA1D00FA4A08 /* Game */ = {
 			isa = PBXGroup;
 			children = (
-				992E927D281912830043BC68 /* Tools */,
 				991DF5912818EA3A00FA4A08 /* GameViewController.h */,
 				991DF5922818EA3A00FA4A08 /* GameViewController.m */,
 				992E92752818F4F20043BC68 /* Views */,
+				992E927D281912830043BC68 /* Tools */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -142,6 +154,8 @@
 			children = (
 				992E92762818F51C0043BC68 /* GameTopBar.h */,
 				992E92772818F51C0043BC68 /* GameTopBar.m */,
+				992E928728193ED60043BC68 /* MHGameView.h */,
+				992E928828193ED60043BC68 /* MHGameView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -165,6 +179,12 @@
 		992E927D281912830043BC68 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				992E927E28191E7B0043BC68 /* MHShader.h */,
+				992E927F28191E7B0043BC68 /* MHShader.m */,
+				992E92812819289A0043BC68 /* MHTexture2D.h */,
+				992E92822819289A0043BC68 /* MHTexture2D.m */,
+				992E928428192BB90043BC68 /* MHResourceManager.h */,
+				992E928528192BB90043BC68 /* MHResourceManager.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -242,11 +262,15 @@
 			files = (
 				991DF5932818EA3B00FA4A08 /* GameViewController.m in Sources */,
 				992E92782818F51C0043BC68 /* GameTopBar.m in Sources */,
+				992E928628192BB90043BC68 /* MHResourceManager.m in Sources */,
 				991DF5BA2818ED0800FA4A08 /* NSObject+MH.m in Sources */,
 				991DF58E2818E86300FA4A08 /* ViewController.m in Sources */,
+				992E928928193ED60043BC68 /* MHGameView.m in Sources */,
 				991DF5832818E4A000FA4A08 /* main.m in Sources */,
 				991DF58F2818E86300FA4A08 /* AppDelegate.m in Sources */,
+				992E92832819289A0043BC68 /* MHTexture2D.m in Sources */,
 				991DF5C12818ED0800FA4A08 /* NSString+MH.m in Sources */,
+				992E928028191E7B0043BC68 /* MHShader.m in Sources */,
 				991DF5C52818ED0800FA4A08 /* UIView+MH.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
