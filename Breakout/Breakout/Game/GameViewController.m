@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = RGBA(0.0, 0.0, 0.0, 255);
+    self.view.backgroundColor = RGBA(255, 255, 255, 255);
     [self setupUI];
 }
 -(void)setupUI

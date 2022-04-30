@@ -26,4 +26,6 @@ isPhoneX = [[UIApplication sharedApplication] delegate].window.safeAreaInsets.bo
 #define TABBARITEM_H    (K_iPhoneX ? 49 : 49)
 #define k_bottom_margin    (K_iPhoneX ? 34.0 : 0.0)   //底部安全区域高度
 
+#define K_RADIANS(angle) ((angle) / 180.0 * M_PI)
+
 #endif /* GameAppConfig_h */

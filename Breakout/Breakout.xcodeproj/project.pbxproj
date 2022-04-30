@@ -17,12 +17,24 @@
 		991DF5BA2818ED0800FA4A08 /* NSObject+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DF5A22818ED0700FA4A08 /* NSObject+MH.m */; };
 		991DF5C12818ED0800FA4A08 /* NSString+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DF5AC2818ED0800FA4A08 /* NSString+MH.m */; };
 		991DF5C52818ED0800FA4A08 /* UIView+MH.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DF5B42818ED0800FA4A08 /* UIView+MH.m */; };
+		9922AFDC281A66340094B1E9 /* SpriteRender.m in Sources */ = {isa = PBXBuildFile; fileRef = 9922AFDB281A66340094B1E9 /* SpriteRender.m */; };
+		9922AFDF281A6B6E0094B1E9 /* sprite.fs in Resources */ = {isa = PBXBuildFile; fileRef = 9922AFDD281A6B6E0094B1E9 /* sprite.fs */; };
+		9922AFE0281A6B6E0094B1E9 /* sprite.vs in Resources */ = {isa = PBXBuildFile; fileRef = 9922AFDE281A6B6E0094B1E9 /* sprite.vs */; };
 		992E92782818F51C0043BC68 /* GameTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E92772818F51C0043BC68 /* GameTopBar.m */; };
 		992E927C2818F7850043BC68 /* icon-arrow-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 992E927B2818F7850043BC68 /* icon-arrow-left.png */; };
 		992E928028191E7B0043BC68 /* MHShader.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E927F28191E7B0043BC68 /* MHShader.m */; };
 		992E92832819289A0043BC68 /* MHTexture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E92822819289A0043BC68 /* MHTexture2D.m */; };
-		992E928628192BB90043BC68 /* MHResourceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E928528192BB90043BC68 /* MHResourceManager.m */; };
 		992E928928193ED60043BC68 /* MHGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 992E928828193ED60043BC68 /* MHGameView.m */; };
+		99C8AB98281BB7D500902B7E /* BreakoutObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8AB97281BB7D500902B7E /* BreakoutObject.m */; };
+		99C8AB9B281BBAB400902B7E /* GameSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8AB9A281BBAB400902B7E /* GameSource.m */; };
+		99C8AB9E281BC39C00902B7E /* BreakoutLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C8AB9D281BC39C00902B7E /* BreakoutLevel.m */; };
+		99D13CBC281BD3DB00D510FF /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D13CBA281BD3DB00D510FF /* block.png */; };
+		99D13CBD281BD3DB00D510FF /* block_solid.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D13CBB281BD3DB00D510FF /* block_solid.png */; };
+		99D13CBF281BD76100D510FF /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99D13CBE281BD76100D510FF /* background.jpg */; };
+		99D13CC1281BD9D200D510FF /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D13CC0281BD9D100D510FF /* paddle.png */; };
+		99D13CC4281CC41200D510FF /* BreakBallObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D13CC3281CC41200D510FF /* BreakBallObject.m */; };
+		99D13CC6281CC9A800D510FF /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = 99D13CC5281CC9A800D510FF /* awesomeface.png */; };
+		99D13CCA281D1D7600D510FF /* BreakCollision.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D13CC9281D1D7600D510FF /* BreakCollision.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +59,10 @@
 		991DF5AC2818ED0800FA4A08 /* NSString+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MH.m"; sourceTree = "<group>"; };
 		991DF5B42818ED0800FA4A08 /* UIView+MH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MH.m"; sourceTree = "<group>"; };
 		991DF5B62818ED0800FA4A08 /* NSObject+MH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MH.h"; sourceTree = "<group>"; };
+		9922AFDA281A66340094B1E9 /* SpriteRender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteRender.h; sourceTree = "<group>"; };
+		9922AFDB281A66340094B1E9 /* SpriteRender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteRender.m; sourceTree = "<group>"; };
+		9922AFDD281A6B6E0094B1E9 /* sprite.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sprite.fs; sourceTree = "<group>"; };
+		9922AFDE281A6B6E0094B1E9 /* sprite.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sprite.vs; sourceTree = "<group>"; };
 		992E92762818F51C0043BC68 /* GameTopBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameTopBar.h; sourceTree = "<group>"; };
 		992E92772818F51C0043BC68 /* GameTopBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTopBar.m; sourceTree = "<group>"; };
 		992E927B2818F7850043BC68 /* icon-arrow-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-arrow-left.png"; sourceTree = "<group>"; };
@@ -54,10 +70,24 @@
 		992E927F28191E7B0043BC68 /* MHShader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHShader.m; sourceTree = "<group>"; };
 		992E92812819289A0043BC68 /* MHTexture2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHTexture2D.h; sourceTree = "<group>"; };
 		992E92822819289A0043BC68 /* MHTexture2D.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHTexture2D.m; sourceTree = "<group>"; };
-		992E928428192BB90043BC68 /* MHResourceManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHResourceManager.h; sourceTree = "<group>"; };
-		992E928528192BB90043BC68 /* MHResourceManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHResourceManager.m; sourceTree = "<group>"; };
 		992E928728193ED60043BC68 /* MHGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MHGameView.h; sourceTree = "<group>"; };
 		992E928828193ED60043BC68 /* MHGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHGameView.m; sourceTree = "<group>"; };
+		99C8AB96281BB7D500902B7E /* BreakoutObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreakoutObject.h; sourceTree = "<group>"; };
+		99C8AB97281BB7D500902B7E /* BreakoutObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutObject.m; sourceTree = "<group>"; };
+		99C8AB99281BBAB400902B7E /* GameSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameSource.h; sourceTree = "<group>"; };
+		99C8AB9A281BBAB400902B7E /* GameSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameSource.m; sourceTree = "<group>"; };
+		99C8AB9C281BC39C00902B7E /* BreakoutLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreakoutLevel.h; sourceTree = "<group>"; };
+		99C8AB9D281BC39C00902B7E /* BreakoutLevel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakoutLevel.m; sourceTree = "<group>"; };
+		99D13CBA281BD3DB00D510FF /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		99D13CBB281BD3DB00D510FF /* block_solid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block_solid.png; sourceTree = "<group>"; };
+		99D13CBE281BD76100D510FF /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		99D13CC0281BD9D100D510FF /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		99D13CC2281CC41200D510FF /* BreakBallObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreakBallObject.h; sourceTree = "<group>"; };
+		99D13CC3281CC41200D510FF /* BreakBallObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakBallObject.m; sourceTree = "<group>"; };
+		99D13CC5281CC9A800D510FF /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
+		99D13CC7281CD0E500D510FF /* BreakGameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreakGameConfig.h; sourceTree = "<group>"; };
+		99D13CC8281D1D7600D510FF /* BreakCollision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BreakCollision.h; sourceTree = "<group>"; };
+		99D13CC9281D1D7600D510FF /* BreakCollision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BreakCollision.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +148,11 @@
 		991DF5902818EA1D00FA4A08 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				99C8AB95281BB7B000902B7E /* BreakoutGame */,
+				9922AFD9281A660E0094B1E9 /* Renders */,
 				991DF5912818EA3A00FA4A08 /* GameViewController.h */,
 				991DF5922818EA3A00FA4A08 /* GameViewController.m */,
+				99D13CC7281CD0E500D510FF /* BreakGameConfig.h */,
 				992E92752818F4F20043BC68 /* Views */,
 				992E927D281912830043BC68 /* Tools */,
 			);
@@ -149,6 +182,29 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		9922AFD9281A660E0094B1E9 /* Renders */ = {
+			isa = PBXGroup;
+			children = (
+				9922AFDD281A6B6E0094B1E9 /* sprite.fs */,
+				9922AFDE281A6B6E0094B1E9 /* sprite.vs */,
+				9922AFDA281A66340094B1E9 /* SpriteRender.h */,
+				9922AFDB281A66340094B1E9 /* SpriteRender.m */,
+			);
+			path = Renders;
+			sourceTree = "<group>";
+		};
+		9922AFE1281A745E0094B1E9 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				99D13CC5281CC9A800D510FF /* awesomeface.png */,
+				99D13CC0281BD9D100D510FF /* paddle.png */,
+				99D13CBE281BD76100D510FF /* background.jpg */,
+				99D13CBB281BD3DB00D510FF /* block_solid.png */,
+				99D13CBA281BD3DB00D510FF /* block.png */,
+			);
+			path = textures;
+			sourceTree = "<group>";
+		};
 		992E92752818F4F20043BC68 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +219,7 @@
 		992E92792818F75F0043BC68 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				9922AFE1281A745E0094B1E9 /* textures */,
 				992E927A2818F76A0043BC68 /* Icons */,
 			);
 			path = Resource;
@@ -183,10 +240,25 @@
 				992E927F28191E7B0043BC68 /* MHShader.m */,
 				992E92812819289A0043BC68 /* MHTexture2D.h */,
 				992E92822819289A0043BC68 /* MHTexture2D.m */,
-				992E928428192BB90043BC68 /* MHResourceManager.h */,
-				992E928528192BB90043BC68 /* MHResourceManager.m */,
+				99C8AB99281BBAB400902B7E /* GameSource.h */,
+				99C8AB9A281BBAB400902B7E /* GameSource.m */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		99C8AB95281BB7B000902B7E /* BreakoutGame */ = {
+			isa = PBXGroup;
+			children = (
+				99C8AB96281BB7D500902B7E /* BreakoutObject.h */,
+				99C8AB97281BB7D500902B7E /* BreakoutObject.m */,
+				99D13CC2281CC41200D510FF /* BreakBallObject.h */,
+				99D13CC3281CC41200D510FF /* BreakBallObject.m */,
+				99C8AB9C281BC39C00902B7E /* BreakoutLevel.h */,
+				99C8AB9D281BC39C00902B7E /* BreakoutLevel.m */,
+				99D13CC8281D1D7600D510FF /* BreakCollision.h */,
+				99D13CC9281D1D7600D510FF /* BreakCollision.m */,
+			);
+			path = BreakoutGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +319,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				991DF5802818E4A000FA4A08 /* LaunchScreen.storyboard in Resources */,
+				9922AFE0281A6B6E0094B1E9 /* sprite.vs in Resources */,
+				99D13CBC281BD3DB00D510FF /* block.png in Resources */,
+				99D13CC1281BD9D200D510FF /* paddle.png in Resources */,
 				991DF57D2818E4A000FA4A08 /* Assets.xcassets in Resources */,
 				991DF57B2818E49B00FA4A08 /* Main.storyboard in Resources */,
+				99D13CBD281BD3DB00D510FF /* block_solid.png in Resources */,
+				9922AFDF281A6B6E0094B1E9 /* sprite.fs in Resources */,
 				992E927C2818F7850043BC68 /* icon-arrow-left.png in Resources */,
+				99D13CBF281BD76100D510FF /* background.jpg in Resources */,
+				99D13CC6281CC9A800D510FF /* awesomeface.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +340,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				991DF5932818EA3B00FA4A08 /* GameViewController.m in Sources */,
+				99D13CCA281D1D7600D510FF /* BreakCollision.m in Sources */,
 				992E92782818F51C0043BC68 /* GameTopBar.m in Sources */,
-				992E928628192BB90043BC68 /* MHResourceManager.m in Sources */,
 				991DF5BA2818ED0800FA4A08 /* NSObject+MH.m in Sources */,
+				99D13CC4281CC41200D510FF /* BreakBallObject.m in Sources */,
 				991DF58E2818E86300FA4A08 /* ViewController.m in Sources */,
+				99C8AB98281BB7D500902B7E /* BreakoutObject.m in Sources */,
 				992E928928193ED60043BC68 /* MHGameView.m in Sources */,
 				991DF5832818E4A000FA4A08 /* main.m in Sources */,
+				99C8AB9E281BC39C00902B7E /* BreakoutLevel.m in Sources */,
 				991DF58F2818E86300FA4A08 /* AppDelegate.m in Sources */,
+				9922AFDC281A66340094B1E9 /* SpriteRender.m in Sources */,
 				992E92832819289A0043BC68 /* MHTexture2D.m in Sources */,
+				99C8AB9B281BBAB400902B7E /* GameSource.m in Sources */,
 				991DF5C12818ED0800FA4A08 /* NSString+MH.m in Sources */,
 				992E928028191E7B0043BC68 /* MHShader.m in Sources */,
 				991DF5C52818ED0800FA4A08 /* UIView+MH.m in Sources */,
